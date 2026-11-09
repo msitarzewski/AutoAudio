@@ -1,21 +1,17 @@
 # AutoAudio website
 
-Static source for https://msitarzewski.github.io/AutoAudio/ . This repository hosts the landing page and project-updates RSS feed. The Mac application is in development; no application binaries or full book downloads are distributed here.
+Static source for https://msitarzewski.github.io/AutoAudio/ . GitHub Pages publishes main/root with `.nojekyll`. Relative asset URLs support the /AutoAudio/ project path. No dependencies, analytics, external fonts or runtime credentials. The Mac application remains in development; no application binaries are posted here.
 
-## Hosting
+## Licensed examples
 
-GitHub Pages publishes the main branch root. `.nojekyll` keeps this a buildless static site. All local asset URLs are relative to the `/AutoAudio/` project path. No build dependencies, analytics, external fonts or runtime credentials.
+The owner authorized public downloadable examples on November 8, 2026, with the same **CC BY 4.0** content license as Bedrock: **© 2026 Michael Sitarzewski**. See CONTENT-LICENSE.md and the embedded notices for the scope and third-party exclusions. The PDF/EPUB identify source-derived wording, cite five sources, include twenty notes and credit the actual local production pipeline. The listening report retains 21 automatic recognition flags; no word-perfect or human editorial certification is claimed.
 
-[GitHub Pages setup](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
+Only the curated files in examples/who-owns-local-ai/ are distributed: PDF, EPUB, M4B, cover, complete ZIP, attribution/license, third-party notices, README, public release metadata and checksums. The ZIP is built from an explicit file list by Tools/publication.py in the private application workspace. Never upload its private production manifest, book/edition IDs, raw source snapshots, prompts, reasoning, runtime logs, credentials or memory. Private app/library artifacts remain local.
 
-## Publication boundary
-
-Only the files in this website directory are public. Private manuscripts, PDF/EPUB/audio reading editions, model prompts, research snapshots, extracted source text, runtime logs, credentials and app memory are excluded. The first book is shown as a production example; its source-wording and publication review remain pending. Its private reading files are delivered separately to the owner.
-
-`feed.xml` currently carries project updates. It is RSS2 with one real development update and no audio enclosure. A future cleared audio episode needs a stable public HTTPS URL, the exact hosted byte count, the correct media type, and a stable episode GUID. Do not insert a fake or private enclosure merely to make the feed appear populated.
+The RSS2 feed preserves its original project-update GUID and adds one real audiobook item with a stable GUID, measured byte count and audio/mp4 enclosure. It is not submitted to any podcast directory. Use the public audio URL and accurate new bytes if updating the export; do not fabricate episodes.
 
 ## Credits and terms
 
-Presentation follows the same restrained Apple-platform family as [Glass Power Tools](https://github.com/msitarzewski/GlassPowerTools). Cover illustration was generated locally in ComfyUI0.41.0 with Z-Image-Turbo; cover typography uses Source Serif4 and Source Sans3. Website layout and publication design were prepared with Codex assistance.
+The restrained Apple-platform presentation follows the Glass Power Tools family. Cover illustration: local ComfyUI/Z-Image-Turbo. Typography: Source Serif 4 and Source Sans 3 with SIL OFL notices in the ebook. Publication design: AutoAudio with Codex assistance.
 
-Website source code is GPL-3.0-only; see LICENSE. The application, model, artwork, fonts and source publications have separate terms. This notice does not assign a blanket content license or copyright owner to the book or its cover. The embedded cover image is a publication asset; third-party research snapshots are not included.
+Website/application source code remains GPL-3.0-only; see LICENSE. Downloadable original contributions and presentation use CC BY 4.0 with identified third-party exclusions; see CONTENT-LICENSE.md. Model, source, font and trademark terms remain separate.

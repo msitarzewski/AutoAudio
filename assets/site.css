@@ -277,3 +277,15 @@ h2 { font-size: clamp(36px, 4vw, 48px); line-height: 1.15; letter-spacing: -.045
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Downloadable field-note editions: native audio controls and explicit formats. */
+.downloads-section{padding-block:70px 84px;border-top:1px solid var(--line)}
+.listen-panel{display:flex;align-items:center;justify-content:space-between;gap:28px;padding:24px 28px;margin:32px 0 20px;background:var(--surface);border:1px solid var(--line);border-radius:18px}
+.listen-panel h3{font-size:17px;margin:0 0 8px}.listen-panel p{color:var(--muted);font-size:13px;margin:0}
+.listen-panel audio{width: min(100%,400px);flex-shrink:0}
+.download-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.download-card{display:flex;flex-direction:column;gap:12px;padding:26px 24px;border:1px solid var(--line);border-radius:16px;text-decoration:none;background:var(--surface)}
+.download-card:hover{border-color:var(--copper)}.download-card strong{color:var(--text);font-size:20px;letter-spacing:-.025em}.download-card>span:not(.mini-label){color:var(--muted);font-size:13px}.download-card .download-size{padding-top:12px;color:var(--copper)!important}
+.download-extras{display:flex;align-items:center;flex-wrap:wrap;gap:18px 28px;margin:26px 0 32px;font-size:13px}
+.content-license{max-width:760px;font-size:13px;line-height:1.7;color:var(--muted)}.content-license strong{color:var(--text)}
+@media(max-width:760px){.listen-panel{align-items:stretch;flex-direction:column;gap:18px}.listen-panel audio{width:100%}.download-grid{grid-template-columns:1fr}.download-card{gap:8px;padding:22px}.downloads-section{padding-block:45px 55px}}

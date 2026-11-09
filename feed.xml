@@ -1,17 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>AutoAudio — Project updates</title>
+    <title>AutoAudio — Field notes and updates</title>
     <link>https://msitarzewski.github.io/AutoAudio/</link>
-    <description>Notes from the development of a personal audiobook studio for Mac. Audio field-note publication is in preparation.</description>
+    <description>Original listening experiences made with AutoAudio. Download the first example as audio, PDF or EPUB.</description>
     <language>en-us</language>
     <generator>AutoAudio static publication</generator>
-    <atom:link href="https://msitarzewski.github.io/AutoAudio/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://msitarzewski.github.io/AutoAudio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who Owns Local AI? — Listen, read and download</title>
+      <link>https://msitarzewski.github.io/AutoAudio/#downloads</link>
+      <guid isPermaLink="false">https://msitarzewski.github.io/AutoAudio/examples/who-owns-local-ai/</guid>
+      <pubDate>Mon, 09 Nov 2026 04:02:21 GMT</pubDate>
+      <description>The complete 23:51 Sohee-narrated field note, plus PDF, EPUB and cover. © 2026 Michael Sitarzewski. Original contributions and presentation: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); identified third-party wording excluded. Five sources and twenty notes accompany the reading editions. This AI-assisted example retains 21 automatic recognition flags. Research reference date: November 8, 2026.</description>
+      <enclosure url="https://msitarzewski.github.io/AutoAudio/examples/who-owns-local-ai/who-owns-local-ai.m4b" length="17792570" type="audio/mp4" />
+    </item>
     <item>
       <title>A first field note, made locally</title>
       <link>https://msitarzewski.github.io/AutoAudio/#field-note</link>
       <guid isPermaLink="true">https://msitarzewski.github.io/AutoAudio/#field-note</guid>
-      <description>Who Owns Local AI? completed its local research, writing and Sohee narration workflow: three chapters and 23 minutes 51 seconds. Private PDF and EPUB reading editions are prepared; public distribution review is pending. This feed currently carries project updates, with no public audio enclosure.</description>
+      <description>Who Owns Local AI? completed its local research, writing and Sohee narration workflow: three chapters and 23 minutes 51 seconds. This initial development update preceded the downloadable reading and listening examples announced in the newer feed item.</description>
     </item>
+    <copyright>© 2026 Michael Sitarzewski. CC BY 4.0 for original contributions and presentation; identified third-party material excluded.</copyright>
+    <lastBuildDate>Mon, 09 Nov 2026 04:02:21 GMT</lastBuildDate>
   </channel>
 </rss>

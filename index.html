@@ -52,7 +52,7 @@
         <p class="hero-description">AutoAudio turns the things you want to understand into a book you can listen to. Research, writing and neural narration can happen right on your Mac.</p>
         <div class="actions">
           <a class="button primary" href="#studio">Explore the studio <span aria-hidden="true">↗</span></a>
-          <a class="text-link" href="#field-note">Meet the first field note <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="#downloads">Listen or download the field note <span aria-hidden="true">→</span></a>
         </div>
         <p class="platform-note">macOS 26 · Apple Silicon · GPLv3<br><span>Development preview</span></p>
       </div>
@@ -111,7 +111,7 @@
             <div><dt>Created</dt><dd>Locally on Apple Silicon</dd></div>
           </dl>
           <p class="edition-caption">Research direction by Michael Sitarzewski. Made with local research, Muse writing, LFM support checks and Qwen3-TTS narration.</p>
-          <p class="publication-note"><span class="status-dot" aria-hidden="true"></span> Reading editions prepared; public release under review</p>
+          <p class="publication-note"><span class="status-dot" aria-hidden="true"></span> Listen or read the complete example below</p>
         </div>
         <ol class="chapter-list">
           <li><span aria-hidden="true">I</span><div><h3>Three Compute Worlds</h3><p>The different demands of training a frontier model, serving it online and running one at home.</p></div></li>
@@ -131,10 +131,18 @@
           </ol>
         </div></details>
         <details class="plain-disclosure"><summary>A note on the first edition <span aria-hidden="true">+</span></summary><div>
-          <p>This is an AI-assisted research and listening edition. Its automatic report retains 21 passage-level recognition flags. The PDF and EPUB reading editions are prepared. Source wording, attribution and publication rights remain under review.</p>
-          <p>The local book is complete in its producing Library. Public audio, PDF and EPUB downloads are not posted on this page.</p>
+          <p>This is an AI-assisted research and listening edition. Its automatic report retains 21 passage-level recognition flags; these are not human judgments of each passage. Research reflects sources retrieved on November 8, 2026. The reading editions include source notes and production credits.</p>
+          <p>This example preserves the completed listening manuscript. The PDF and EPUB mark source-derived wording and explain the license exclusions. Interpretive conclusions and practical guidance remain the edition’s synthesis.</p>
         </div></details>
       </div>
+    </section>
+
+    <section class="downloads-section page-width" id="downloads" aria-labelledby="downloads-title">
+      <div class="section-heading"><p class="eyebrow">Yours to explore</p><h2 id="downloads-title">A field note, in your format.</h2><p>Listen here, take it into your library, or settle in with the reading edition. Every format is free to download.</p></div>
+      <div class="listen-panel"><div><h3>Listen to Who Owns Local AI?</h3><p>Sohee · Synthetic narration · Three chapters</p></div><audio controls preload="metadata" aria-label="Who Owns Local AI? narrated by Sohee"><source src="examples/who-owns-local-ai/who-owns-local-ai.m4b" type="audio/mp4">Your browser does not support this player. <a href="examples/who-owns-local-ai/who-owns-local-ai.m4b">Download the audiobook</a>.</audio></div>
+      <div class="download-grid"><a class="download-card" href="examples/who-owns-local-ai/who-owns-local-ai.m4b" download><span class="mini-label">Audiobook</span><strong>M4B · 23 min 51 sec</strong><span>For your audiobook player</span><span class="download-size">Download · 17.8 MB <span aria-hidden="true">↓</span></span></a><a class="download-card" href="examples/who-owns-local-ai/who-owns-local-ai.pdf" download><span class="mini-label">Reading edition</span><strong>PDF · 26 pages</strong><span>Designed for reading and printing</span><span class="download-size">Download · 2.9 MB <span aria-hidden="true">↓</span></span></a><a class="download-card" href="examples/who-owns-local-ai/who-owns-local-ai.epub" download><span class="mini-label">Ebook</span><strong>EPUB · Reflowable</strong><span>For Apple Books and other readers</span><span class="download-size">Download · 877 KB <span aria-hidden="true">↓</span></span></a></div>
+      <div class="download-extras"><a class="text-link" href="examples/who-owns-local-ai/who-owns-local-ai-examples.zip" download>Get all the examples · 20.9 MB <span aria-hidden="true">↓</span></a><a href="examples/who-owns-local-ai/cover.jpg" download>Download the cover</a><a href="examples/who-owns-local-ai/SHA256SUMS.txt">File checksums</a></div>
+      <div class="content-license"><p><strong>© 2026 Michael Sitarzewski</strong> · <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p><p>Share and adapt the licensed original contributions and presentation, including commercially, with credit, a license link and an indication of changes. Identified third-party source wording is excluded; software, model and font terms remain separate.</p><p><a href="examples/who-owns-local-ai/LICENSE.txt">License and attribution</a> · <a href="examples/who-owns-local-ai/THIRD-PARTY-NOTICES.txt">Third-party notices</a></p></div>
     </section>
 
     <section class="updates-section" id="updates" aria-labelledby="updates-title">
@@ -142,7 +150,7 @@
         <div>
           <p class="eyebrow">One good question at a time</p>
           <h2 id="updates-title">A feed for<br>your curiosity.</h2>
-          <p>Field notes that travel with you are next. For now, the RSS feed carries project updates while the publication workflow takes shape.</p>
+          <p>Follow new field notes and project updates in your feed reader. The first complete audiobook is now included as an audio enclosure.</p>
           <div class="actions"><a class="button primary" href="feed.xml"><svg width="17" height="17" viewBox="0 0 18 18" fill="none" aria-hidden="true"><circle cx="3.5" cy="14.5" r="1.5" fill="currentColor"/><path d="M3 8a7 7 0 0 1 7 7M3 2a13 13 0 0 1 13 13" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> Follow the updates</a><button class="text-link copy-button" id="copy-feed" type="button" hidden>Copy feed link <span aria-hidden="true">↗</span></button></div>
           <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
         </div>
@@ -151,6 +159,6 @@
     </section>
   </main>
 
-  <footer class="site-footer page-width"><div><a class="footer-wordmark" href="./">AutoAudio</a><p>A personal listening studio, in development.</p></div><nav aria-label="Footer navigation"><a href="feed.xml">RSS</a><a href="https://github.com/msitarzewski/AutoAudio">GitHub</a><a href="https://github.com/msitarzewski/GlassPowerTools">Glass Power Tools</a></nav><p class="footer-note">GPLv3 application · Website has no analytics or tracking.<br>Model, source and publication rights remain separate.</p></footer>
+  <footer class="site-footer page-width"><div><a class="footer-wordmark" href="./">AutoAudio</a><p>A personal listening studio, in development.</p></div><nav aria-label="Footer navigation"><a href="feed.xml">RSS</a><a href="https://github.com/msitarzewski/AutoAudio">GitHub</a><a href="https://github.com/msitarzewski/GlassPowerTools">Glass Power Tools</a></nav><p class="footer-note">© 2026 Michael Sitarzewski · <a href="CONTENT-LICENSE.md">Content: CC BY 4.0, with exclusions</a><br>GPLv3 software · No analytics or tracking.</p></footer>
 </body>
 </html>

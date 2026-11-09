@@ -1,0 +1,53 @@
+{
+  "public_downloads": true,
+  "owner_authorized_at": "2026-11-08",
+  "copyright_holder": "Michael Sitarzewski",
+  "copyright_year": 2026,
+  "copyright_notice": "© 2026 Michael Sitarzewski",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution_url": "https://msitarzewski.github.io/AutoAudio/#field-note",
+  "scope": "Michael Sitarzewski’s original contributions, selection, arrangement and presentation, including the cover and listening edition, are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0), to the extent he holds the applicable rights.",
+  "exclusions": "Third-party quotations and source-derived wording identified in the reading edition are excluded from this CC BY grant and remain subject to their original terms. Software, model, font and trademark rights remain separate. This license grants no third-party rights and implies no source or contributor endorsement.",
+  "title": "Who Owns Local AI?",
+  "narrator": "Sohee (synthetic voice)",
+  "duration_seconds": 1431,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Detecting and preventing distillation attacks",
+      "author": "Anthropic",
+      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+      "published_date": "2026-02-23"
+    },
+    {
+      "id": "S2",
+      "title": "Strengthening our defenses against distillation attacks",
+      "author": "Anthropic",
+      "url": "https://www.anthropic.com/news/distillation-defenses",
+      "published_date": "2026-10-12"
+    },
+    {
+      "id": "S3",
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "author": "OpenAI",
+      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/",
+      "published_date": null
+    },
+    {
+      "id": "S4",
+      "title": "DeepSeek-R1",
+      "author": "DeepSeek-AI contributors",
+      "url": "https://github.com/deepseek-ai/DeepSeek-R1",
+      "published_date": null
+    },
+    {
+      "id": "S5",
+      "title": "MLX: An array framework for Apple silicon",
+      "author": "MLX contributors / Apple machine learning research",
+      "url": "https://github.com/ml-explore/mlx",
+      "published_date": null
+    }
+  ],
+  "listening_note": "21 automatic passage-level recognition flags remain; no human word-perfect certification."
+}
