@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AutoAudio — Project updates</title>
+    <link>https://msitarzewski.github.io/AutoAudio/</link>
+    <description>Notes from the development of a personal audiobook studio for Mac. Audio field-note publication is in preparation.</description>
+    <language>en-us</language>
+    <generator>AutoAudio static publication</generator>
+    <atom:link href="https://msitarzewski.github.io/AutoAudio/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A first field note, made locally</title>
+      <link>https://msitarzewski.github.io/AutoAudio/#field-note</link>
+      <guid isPermaLink="true">https://msitarzewski.github.io/AutoAudio/#field-note</guid>
+      <description>Who Owns Local AI? completed its local research, writing and Sohee narration workflow: three chapters and 23 minutes 51 seconds. Private PDF and EPUB reading editions are prepared; public distribution review is pending. This feed currently carries project updates, with no public audio enclosure.</description>
+    </item>
+  </channel>
+</rss>
