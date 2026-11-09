@@ -1,0 +1,6 @@
+# Preserve packaged publication bytes and keep binary assets out of text diffs.
+*.pdf binary
+*.epub binary
+*.m4b binary
+*.jpg binary
+*.zip binary
